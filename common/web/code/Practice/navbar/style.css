@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 80px;
+    box-shadow:  0 0 10px #4c6eff,
+                0 0 15px #4c6eff,
+                0 0 40px #002be3,
+                0 0 70px #002be3;
+}
+
+.navbar ul{
+    display: inline;
+    padding-left: 200px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color:black;
+}

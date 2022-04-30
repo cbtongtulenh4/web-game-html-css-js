@@ -1,0 +1,128 @@
+
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 665px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/*----------------------------IMAGE SLIDER-------------------------------------*/
+
+.box-skill{
+    position: relative;
+    width: 320px;
+    top: calc(5 * 100vh /100);
+    left: 5%;
+    padding: 10px 20px;
+    z-index: 2;
+    background: rgba(0,0,0,.6);
+    font-family: 'LinBiolinum', 'Microsoft Yahei', Arial, sans-serif;
+}
+
+.box-skill h3{
+    color: red;
+    font-size: 40px;
+    line-height: 1em;
+}
+
+.box-skill h3 span{
+    font-size: 20px;
+    color: #fff;
+}
+
+.box-skill .kind{
+    display: grid;
+    width: 100%;
+    padding: 5px 0;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    grid-gap: 5px;
+}
+
+.box-skill .kind span{
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    background: url("../../images/herolistnav.png");
+}
+
+.box-skill .attr{
+    display: flex;
+    flex-direction: column;
+}
+
+.box-skill .attr span img{
+    width: 40px;
+}
+
+.box-skin{
+    position: relative;
+    top: 6%;
+    width: 400px;
+    padding: 1% 1%;
+    left: 5%;
+    background: rgba(0,0,0,.6);
+    z-index: 2;
+}
+
+.box-skin .skin-btn{
+    font-size: 30px;
+    display: block;
+    padding-bottom: 10px;
+    color: #0486f9;
+    font-weight: bold;
+}
+.box-skin .skin-list .swiper-container {
+    overflow: hidden;
+    width: 100%;
+    height: 100px;
+
+}
+
+.box-skin .skin-list .swiper-container .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    background: #000;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent,#000600);
+}
+
+.box-skin .skin-list .swiper-container .swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+
+/*----------------------------------------------------------------------------------------------------*/
+
+.ads{
+    position: absolute;
+    background-image: url("images/ads.png");
+    top: 75px;
+    right: 15px;
+    width: 300px;
+    height: 600px;
+    cursor: pointer;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+.ads .close{
+    position: absolute;
+    top: -10px;
+    width: 20px;
+    height: 30px;
+    right: -10px;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 900;
+    color: inherit;
+    background-color: #fff;
+    border: 1px solid red;
+    border-radius: 50px;
+}

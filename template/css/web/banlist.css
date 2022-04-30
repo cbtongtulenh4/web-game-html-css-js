@@ -1,0 +1,82 @@
+
+.container{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 665px;
+    background: #080f20;
+    background-position: center;
+    background-size: cover;
+}
+
+.content{   
+    max-width: 1200px;
+    padding: 120px 0;
+    padding-left: 10%;
+    width: 66%;
+}
+
+.content .hr1{
+    height: 4px;
+    background: url(../../template/images/hr1.jpg) no-repeat center top;
+}
+
+.content h1{
+    padding: 20px 0;
+    line-height: 40px;
+    color: #cde3f4;
+    font-size: 32px;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.content .pubtime{
+    padding: 10px 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #cde3f4;
+}
+
+.content p{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 14px;
+    color: #e9b012;
+    line-height: 24px;
+}
+
+.content table{
+    position: inherit;
+    margin-left: 25px;
+    width: 726px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.container table tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    color: #d0ddff;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.container table tr td{
+    width: 132px;
+    border: 1px solid #384b67;
+    text-align: center;
+}
+
+
+.ads{
+    position: fixed;
+    background: url(https://channel.mediacdn.vn/prupload/156/2018/08/img20180828163848352.jpg);
+    background-position: center;
+    background-size: cover;
+    top: 180px;
+    right: 90px;
+    border: 1px solid red;
+    width: 350px;
+    height: 300px;
+}

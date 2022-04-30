@@ -1,0 +1,18 @@
+
+.footer{
+    padding: 50px 0px;
+    text-align: center;
+    width: 100%;
+    background: url(../../images/footer.jpg);
+}
+
+.footer p{
+    color: #6da1ff;
+    size: 15px;
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}

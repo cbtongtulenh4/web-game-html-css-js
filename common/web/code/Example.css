@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0; 
+
+}
+
+.container{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    height: 80px;
+    display: flex;
+    padding-top: 50px;
+    text-align: center;
+}
+.navbar p{
+    position: absolute;
+    font-size: 30px;
+    left: 100px;
+    color: #4c6eff;
+    text-shadow: 0 0 5px #4c6eff,
+                0 0 10px #4c6eff,
+                0 0 15px #4c6eff,
+                0 0 40px #002be3,
+                0 0 70px #002be3;
+
+}
+
+.navbar ul{
+    position: absolute;
+    padding-top: 10px;
+    right: 30px;
+}
+
+.navbar ul li
+{
+    font-size: 18px;
+    display: inline-block;
+    list-style: none;
+    padding-left: 80px;
+    padding-right: 20px;
+    margin-left: 0;
+    
+}
+
+
+.photo{
+    position: relative;
+    left: 30px;
+    
+}
+
+.about_me{
+    position: absolute;
+    width: 600px;
+    height: 175px;
+    left: 350px;
+    top: 130px;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    box-shadow: 0 0 3px #4c6eff,
+    0 0 6px #4c6eff;
+}
+
+.about_me table{
+    position: inherit;
+    width:100%;
+    top: 70px;
+    color:burlywood;
+}
+
+
+.profile{
+    position: absolute;
+    width: 300px;
+    right: 50px;
+    top: 130px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.profile li{
+    position: relative;
+    padding-top: 5px;
+    left: 30px;
+}
+
+
+.my_photo{
+    position: relative;
+    width: 500px;
+    top: 70px;
+    left: 20px;
+    text-align: center;
+    border-top: 2px dashed black;
+    border-bottom: 2px dashed black;
+    text-shadow: 0 0 5px #4c6eff,
+                0 0 10px #4c6eff,
+                0 0 15px #4c6eff,
+                0 0 40px #002be3,
+                0 0 70px #002be3;
+    box-shadow: 0 0 3px #4c6eff,
+                 0 0 6px #4c6eff;
+}
+
+.hobby{
+    position: relative;
+    width: 200px;
+    left: 50px;
+    top: 130px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.hobby li{
+    position: relative;
+    padding-top: 5px;
+    left: 30px;
+}
+
+
+.youT {
+    position: absolute;
+    right: 150px;
+    top: 350px;
+}
+
+.contact{
+    position: relative;
+    width: 600px;
+    left: 30px;
+    top: 200px;
+    border-top: 2px solid black;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+.contact .formsubmit {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+
+
+.skill{
+    position: absolute;
+    width: 350px;
+    right: 200px;
+    bottom: -300px;
+}
+
+.skill .content p{
+    position: relative;
+    font-size: 20px;
+    top: 10px;
+}
+
+.skill .content img{
+    position: absolute;
+    left: 160px;
+    margin-top: -10px;
+}
+
+
+::-webkit-scrollbar{
+    width: 0;
+}

@@ -1,0 +1,145 @@
+/*
+body * { font-family: 'Lora', serif!important; }
+*/
+
+.tcenter { text-align: center; }
+.payment { padding-bottom: 50px; width: 1165px; margin: 0 auto; }
+.step-title { position: relative; padding: 50px 0 20px; font-size: 16px; font-weight: bold; font-size: 20px; }
+.section { position: relative; font-size: 14px; }
+.zindex { z-index: 2; }
+.method-list li { position: relative; z-index: 1; float: left; margin-right: 20px; margin-bottom: 20px; border: 1px solid #2d2e31; }
+.method-list li img { width: 104px; height: 60px; float: left; }
+.method-list li a { display: block; padding: 15px 20px; background: #2d2e31; zoom: 1; }
+.method-list li a:after { content: ""; height: 0; visibility: hidden; display: block; clear: both; }
+.method-list li.on, .method-list li:hover { border-color: #e5a400 }
+.method-list li.on { z-index: 2; }
+
+.support { position: absolute; right: -15px; top: -13px; padding: 0 10px; background: #e5a400; height: 26px; line-height: 26px; text-align: center; border: 1px solid #; font-size: 14px; }
+.supportnote{ display:none;position: absolute;left:-15px;top: 90px;padding: 5px;line-height: 14px;font-size: 12px;width: 166px;text-align:left;color: #dab045; font-weight: bold; }
+.supportnote strong { color: #fff; }
+.method-list li:hover .supportnote{ display:block}
+
+.cm-list li { position: relative; float: left; margin-right: 20px; margin-bottom: 10px; border: 1px solid #2d2e31;  }
+.cm-list li a { width: 240px; text-align: center; display: block; background: #2d2e31; height: 60px; line-height: 60px; color: #fff; }
+.cm-list li.on, .cm-list li:hover { border-color: #e5a400 }
+i.and, i.ios { width: 33px; height: 33px; display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; }
+i.and { background: url(../images/icon.png) -107px 0; }
+i.ios { background: url(../images/icon.png) -146px 0; }
+
+.playerid input { background: #000; display: block; width: 400px; padding: 0 3px; height: 40px; line-height: 40px; border: none; color: #fff; border: 1px solid #e5a400; }
+
+.email input { background: #000; display: block; width: 400px; padding: 0 3px; height: 40px; line-height: 40px; border: none; color: #fff; border: 1px solid #000;  }
+.playerid.error input, .email.error input  { border-color: red; }
+
+
+p span { color: #ffb700; }
+.hint { padding-top: 10px; }
+i.question { cursor:pointer;display:inline-block; *display: inline; *zoom:1; vertical-align: middle; width:20px;height:20px;background: #e5a400;text-align:center;border-radius:50%;margin-left:10px;color:#fff;line-height:20px; font-style: normal; font-weight: bold; margin-top: -3px; }
+.idpic { display: none; position: absolute; left: 220px; top: -150px; width: 700px; }
+
+.card-list li { float: left; border: 1px solid #0e3d63; margin-right: 10px; margin-bottom: 10px; }
+.card-list li img { width: 278px; float: left; }
+.card-list li:hover, .card-list li.on { border-color: #e5a400 }
+
+.summary { position: relative; margin-top: 40px; border-top: 1px solid #bc905d; padding-top: 15px; color: #ffe400; }
+.summary p { line-height: 30px; padding: 4px 0; }
+.summary label { color: #fff; font-weight: bold; }
+.summary b { font-weight: normal; }
+.summary strong { font-size: 30px; }
+.confirm { position: absolute; right: 0; bottom: 0; }
+.confirm a { display: block; background: #ffe400; color: #000; padding: 10px 50px; font-weight: bold; font-size: 22px; }
+.confirm a:hover { background: #ffeb3e }
+
+.popbox { z-index: 999; display: none; width: 100%; height: 100%; position: fixed; left: 0; top: 40%; }
+.mask{ position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #000; opacity: 0.4; filter: alpha(opacity=40); z-index: 1112;}
+.msgbox { width: 500px; padding: 30px 0 20px 0; position: relative; margin: 0 auto; z-index: 1113; color: #fff; background:#00204e; border: 2px solid #276bce; }
+a.close { position: absolute; right: 0; top: 0; width: 40px; height: 40px; line-height: 40px; font-size: 40px; }
+a.close:hover { color: #fff; }
+.msg .cont { width: 80%; padding: 20px 0; margin: 0 auto; font-size: 14px; }
+.cbtn { display: inline-block; *display: inline; *zoom: 1; background: #276bce; border-radius: 3px; color: #fff; width: 100px; height: 36px; line-height: 36px; text-align: center; text-transform: uppercase; }
+.cbtn:hover { background: #3f8bfb; }
+
+.popbox b { color: #e5a400; }
+#payconfirm.popbox { top: 20%; }
+#payconfirm .msgbox { width: 540px; }
+#payconfirm .cont li { padding: 5px 0; }
+#payconfirm .cont li label, #payconfirm .cont li span { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; }
+#payconfirm .cont li label {  width: 140px; text-align: right; font-weight: bold; margin-right: 4px; }
+#payconfirm  .cbtn { width: 200px; }
+
+.moreinfo { padding-top: 20px; width: 370px; margin: 0 auto; }
+.moreinfo label, .moreinfo select, .moreinfo input { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; height: 30px; line-height: 30px; }
+.moreinfo label { width: 160px; text-align: right; }
+.moreinfo select, .moreinfo input { width: 200px; border: none; }
+.moreinfo select { width: 204px; }
+.moreinfo > p { position: relative; padding: 3px 0; }
+.dlocalhint { width: 100%; display: none; position: absolute; left: 375px; bottom: 3px; }
+
+.callback { height: 500px; }
+.payresult { width: 60%; padding: 50px; margin: 50px auto 0; background: #000; border: 2px solid #029dff; border-image: -webkit-linear-gradient(#5323df, #0991fc, #5323df) 30 30; border-image: -moz-linear-gradient(#5323df, #0991fc, #5323df) 30 30; border-image: linear-gradient(#5323df, #0991fc, #5323df) 30 30; font-size: 20px; }
+.success, .fail { position: relative; padding-left: 120px; line-height: 25px; }
+.success:before { position: absolute; left: 0; top: -25px; display: block; content: "√"; background: #092db3; text-align: center; color: #fff; width: 100px; height: 100px; line-height: 100px; border-radius: 50px; font-size: 60px; }
+.backhome { font-size: 16px; }
+.callback a:hover { text-decoration: underline; }
+
+.fail:before { position: absolute; left: 0; top: -25px; display: block; content: "×"; background: #464646; text-align: center; color: #fff; width: 100px; height: 100px; line-height: 100px; border-radius: 50px; font-size: 60px; }
+.callbg { background: url(https://heroes.99.com/en/resource/images/bg/index/bg01.jpg) no-repeat center top #091217; }
+
+.loading{width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    line-height: 56px;
+    color: #fff;
+    font-size: 15px;
+    background: #000 url(../images/loader.gif) no-repeat center center;
+    opacity: 0.7;
+    z-index: 10000;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+}
+
+
+.banner { text-align: center; }
+.banner a{cursor: default;}
+.banner .msgcont,.banner li{width:100%}
+.banner img { width: 728px; height: 90px; }
+
+@media screen and (max-width: 1200px) {
+    .payment { width: 90%; margin: 0 auto; }
+    .method-list {  }
+    .method-list li { float: none; display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; margin-right: 0; margin: 3%; }
+    .dlocalhint { width: 100%; display: none; position: absolute; right: 3px; top: 41px; left: auto; bottom: auto; }
+}
+
+
+@media screen and (max-width: 960px) {
+    .header { height: auto; }
+    .card-list li { width: 30%; margin-right: 0; margin-bottom: 0; margin: 1%; }
+    .card-list li img { width: 100%; }
+    .banner { width: 90%; margin: 0 auto; }
+    .banner img { width: 100%; height: auto; }
+}
+
+@media screen and (max-width: 600px) {
+    .playerid input, .email input { width: 96%; }
+    .confirm a { padding: 1% 2vw; font-size: 4vw; }
+    .cm-list li { width: 47%; margin: 1%; }
+    .cm-list li a { width: 100%; }
+    .card-list li { width: 47%; margin-right: 0; margin-bottom: 0; margin: 1%; }
+    .card-list li img { width: 100%; }
+    #payconfirm .msgbox { width: 96%; }
+    .cbtn { margin: 1%; }
+    .method-list li { margin: 2%; }
+	.moreinfo { padding-top: 90px;}
+    .moreinfo label { width: 33%; }
+    .moreinfo select, .moreinfo input { width: 60%; }
+    .moreinfo select { width: 61%; }
+    .dlocalhint { display: none; position: absolute; right: 0; top: 41px; }
+	.step-title.sp{ padding-top:82px;}
+
+    .supportnote { top: 95px; background: rgba(0,0,0,.8); }
+}
+
+select:disabled{background:#fff; opacity: 1;}
+

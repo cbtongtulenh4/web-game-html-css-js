@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #080f20;
+}
+
+#main{
+    position: relative;
+    margin: 0 auto;
+    max-width: 1920px;
+    min-width: 1200px;
+}
+
+
+::-webkit-scrollbar{
+    width: 0;
+}

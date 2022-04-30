@@ -1,0 +1,153 @@
+
+.container{
+    position: relative;
+    width: 100%;
+    min-height: 665px;
+    background: #080f20;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.content12 { 
+    font-family: 'LinBiolinum', 'Microsoft Yahei', Arial, sans-serif;
+    font-family: 'Lora', serif!important;   
+    padding-top: 100px;  
+    color: aliceblue;
+}
+
+.content12 h1, h2, h3, h4, h5, h6 {
+   font-size: 100%;
+}
+
+.content12 em, b {
+   font-style: normal;
+}
+
+.content12 a {
+   text-decoration: none;
+   color: #6da1ff;
+}
+
+.content12 a:hover {
+   text-decoration: none;
+}
+
+.content12 img {
+   border: 0;
+}
+
+.content12 button, input, select, textarea {
+   font-size: 100%;
+   outline: none;
+}
+
+.content12 table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+.content12 td, th, ul, ol {
+   padding: 0;
+}
+
+.content12 ul, ol {
+   list-style-type: none;
+}
+
+.content12 body {
+   background: #080f20;
+ }
+
+.content12 .hid {
+   text-indent: -9999px;
+   font-size: 0px;
+   overflow: hidden;
+   width: 0px;
+   height: 0px;
+   display: block;
+}
+
+.content12 .clearfix:after,.clearfix:before{
+   content: "";
+   display: table;
+}
+
+.content12 .clearfix:after{
+   clear: both;
+}
+
+.content12 .clearfix{
+   *zoom: 1;
+}
+
+.content12 .t_center {
+   text-align: center;
+}
+
+.content12 .t_right {
+   text-align: right;
+}
+
+.content12 .fl {
+   float: left;
+}
+
+.content12 .fr {
+   float: right;
+}
+
+.content12 .col2 {
+width: 300px;
+}
+
+.content12 .pt1 {
+   padding-top: 40px;
+}
+
+.content12 .pt2 {
+   padding-top: 15px;
+}
+
+.content12 .hidetxt {
+   width: 0;
+   height: 0;
+   overflow: hidden;
+}
+
+.content12 .pictxt {
+   width: 0;
+   height: 0;
+   overflow: hidden;
+}
+
+
+
+.contacts{
+    position: fixed;
+    background-color: rgb(3, 154, 202);
+    width: 70px;
+    height: 70px;
+    top: 70vh;
+    border-radius: 100px;
+    border: 3px solid rgb(3, 154, 202);
+    box-shadow: 0 0 15px #00b3ff;
+}
+
+
+.contacts .avc{
+    color: red;
+    width: 200px;
+    height: 100px;
+    font-size: large;
+    border-radius: 100px;
+}
+
+
+.contacts img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+}

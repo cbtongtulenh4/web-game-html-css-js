@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Evolved</title>
+    <link href="../../template/css/web/hero.css" rel="stylesheet">
+    <link href="../../template/css/web/header.css" rel="stylesheet">
+    <link href="../../template/css/web/footer.css" rel="stylesheet">
+    <link href="../../template/css/web/common.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../template/css/all.css">
+    <link rel="stylesheet" href="../../template/css/brands.css">
+    <link rel="stylesheet" href="../../template/css/fontawesome.min.css">
+    <link rel="stylesheet" href="../../template/css/swiper-bundle.min.css"/>
+</head>
+<body>
+    <div id="main">
+      <div class="container" id="container">
+      
+<div class="navbar">
+        
+  <nav>
+      <a href="../../views/web/home.html" class="logo"><img src="../../template/images/logo.png" alt=""></a>
+      <ul class="clearfix">
+          <li><a class="light" href="../../views/web/home.html">HOME</a></li>
+          <li class="active"><a href="" class="light">GAME INFO</a>
+              <div class="sub-menu-1">
+                  <ul>
+                      <li><a href="../../views/web/hero.html">Battleground</a></li>
+                      <li class="active1"><a href="" class="update">Update</a>  <i class="fa fa-angle-right" aria-hidden="true"></i>
+                          <div class="sub-menu-2">
+                              <ul>
+                                  <li><a href="../../views/web/banlist.html">Ban List</a></li>
+                                  <li><a href="../../views/web/newskin.html"">New Skin</a></li>
+                                  <li><a href="">Event</a></li>
+                              </ul>
+                          </div> 
+                      </li>
+                      <li><a href="#">Items</a></li>
+                  </ul>
+              </div> 
+          </li>
+          <li><a class="light" href="../../views/web/heros.html">HEROES</a></li>
+          <li><a class="light"href="../../views/web/news.html">NEWS</a></li>
+          <li><a class="light" href="../admin/admin.html">STORE</a></li>
+      </ul>
+      <div class="search">
+          <input type = "Search" placeholder="Search">
+          <i class="fas fa-search"></i>
+      </div>
+  </nav>
+  <div class="account">
+      <div class="profile">
+          <img src="../../template/images/account/acc.jpg" alt="">
+      </div>
+      <div class="menu">
+          <h3>Kinz</h3>
+          <ul>
+              <li>
+                  <img src="../../template/images/account/user.png" alt="">
+                  <a href="../../common/web/code/index.html">My Profile</a>
+              </li>
+              <li>
+                  <img src="../../template/images/account/edit.png" alt="">
+                  <a href="">Edit Profile</a>
+              </li>
+              <li>
+                  <img src="../../template/images/account/settings.png" alt="">
+                  <a href="">Settings</a>
+              </li>
+              <li>
+                  <img src="../../template/images/account/question.png" alt="">
+                  <a href="contacts.html">Help</a>
+              </li>
+              <li>
+                  <img src="../../template/images/account/logout.png" alt="">
+                  <a href="../../login.html">Logout</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+  
+</div>
+
+
+          <div class="box-skill">
+              <h3>
+                Minh Phúc
+                <span>Agility</span>
+              </h3>
+              <div class="kind">
+                <span>MELEE</span>
+                <span>GANKER</span>
+                <span>CARRY</span>
+              </div>
+              <div class="attr">
+                <span><img src="../../template/images/skin/attrbar1.png"></span>
+                <span><img src="../../template/images/skin/attrbar2.png"></span>
+                <span><img src="../../template/images/skin/attrbar3.png"></span>
+                <span><img src="../../template/images/skin/attrbar4.png"></span>
+              </div>
+          </div>
+          <div class="box-skin">
+              <div class="skin-btn">skin</div>
+              <div class="skin-list">
+                  <div class="swiper-container mySwiper">
+                      <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="../../template/images/skin/a1.jpg"></div>
+                          <div class="swiper-slide"><img src="../../template/images/skin/a2.jpg"></div>
+                          <div class="swiper-slide"><img src="../../template/images/skin/a3.jpg"></div>
+                          <div class="swiper-slide"><img src="../../template/images/skin/a4.jpg"></div>
+                          <div class="swiper-slide"><img src="../../template/images/skin/a5.jpg"></div>
+                          <div class="swiper-slide"><img src="../../template/images/skin/a6.jpg"></div>
+                          <div class="swiper-slide"><img src="../../template/images/skin/a7.jpg"></div>
+                          <div class="swiper-slide"><img src="../../template/images/skin/a8.jpg"></div>
+                          <div class="swiper-slide"><img src="../../template/images/skin/a9.jpg"></div>
+                          <div class="swiper-slide"><img src="../../template/images/skin/a10.jpg"></div>
+                      </div>
+                      <div class="swiper-pagination"></div>
+                    </div>
+              </div>
+          </div>
+        <!-- <div class="ads">
+            <a href="#" class="close"><p>&times;</p></a>
+          </div> -->
+      </div>
+
+      <div class="footer">
+        <p> Copyright © 2017-2021 Heroes Evolved All Rights Reserved.</p>
+        <p><a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a> | <a href="#">FAQ</a> | 
+            <a href="#">Contact Us</a> | <a href="#">Forum</a>
+        </p>
+      </div>
+    </div>  
+
+    <script src="../../template/js/jquery-3.6.0.js"></script>
+
+    <script src="../../template/js/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 0,
+          depth: 150,
+          modifier: 1,
+          slideShadows: true,
+        },
+        loop: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        on: {
+          init: function () {
+            console.log('swiper initialized');
+          },
+        },
+      });
+    </script>
+
+    <script>
+        swiper.on('slideChange', function () {
+        var arr = [
+         "../../template/images/skin/1a.jpg",
+          "../../template/images/skin/2a.jpg",
+          "../../template/images/skin/3a.jpg",
+          "../../template/images/skin/4a.jpg",
+          "../../template/images/skin/5a.jpg",
+          "../../template/images/skin/6a.jpg",
+          "../../template/images/skin/7a.jpg",
+          "../../template/images/skin/8a.jpg",
+          "../../template/images/skin/9a.jpg",
+          "../../template/images/skin/10a.jpg"
+        ];
+        for(var i=0; i<arr.length;i++){
+          if(i==swiper.realIndex){
+            document.getElementById('container').style.backgroundImage = 'url("'+ arr[i] +'")';
+            css();
+          }
+        }
+      });
+
+      $(document).ready(function(){
+        document.getElementById('container').style.backgroundImage = 'url(../../template/images/skin/1a.jpg)';
+        css();
+/*        var arr = document.getElementsByClassName("img-background");
+        for(var i=0;i<arr.length;i++){
+          console.log(i.val());
+        }*/
+      });
+
+      function css(){
+        document.body.style.backgroundPosition = 'center';
+        document.body.style.backgroundSize = 'cover';
+      }
+    </script>
+
+</body>
+</html>

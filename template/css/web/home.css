@@ -1,0 +1,10 @@
+
+.container{
+    width: 100%;
+    height: 100vh;
+    min-height: 665px;
+    background: url(../../images/backgroundH.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}

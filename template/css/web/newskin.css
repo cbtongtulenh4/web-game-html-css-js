@@ -1,0 +1,80 @@
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    min-height: 665px;
+    background-color: #080f20;
+    position: relative;
+}
+
+.content{
+    position: relative;
+    margin-left: 15%;
+    margin-top: 6%;
+    top: 50px;
+    z-index: 0;
+}
+
+.content h1{
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.content p{
+    font-size: 20px;
+    color: #6a7199;
+}
+
+.content h2{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.content .btn{
+    display: inline-block;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+}
+
+
+.dragon-lan{
+    position: absolute;
+    height: 110%;
+    right: 5%;
+    bottom: 0;
+    height: 90%;
+    z-index: 0;
+}
+
+
+.social-links{
+    position: absolute;
+    bottom: 12%;
+    left: 6%;
+}
+
+.social-links i{
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    text-shadow: 0 0 10px #00b3ff,
+                 0 0 20px #00b3ff,
+                 0 0 40px #00b3ff,
+                 0 0 80px #00b3ff,
+                 0 0 120px #00b3ff;
+}
+

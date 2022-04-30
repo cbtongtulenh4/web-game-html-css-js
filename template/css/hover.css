@@ -1,0 +1,70 @@
+a:hover{
+    color: rgb(243, 194, 88);
+    transition: 0.2s ease-in-out;
+}
+
+
+#main .nav-bar .wrapper>a:hover{
+    background-color: #1a1a33;
+    color: #fff;
+}
+
+
+.tab-item .list-item a:hover{
+    color: #fff;
+}
+
+.tab-item .list-item a:hover .icon{
+    animation: jump 1.5s ease-in-out infinite;
+}
+
+.tab-item .list-item li:last-child a:hover .icon{
+    margin-left: 7px;
+    width: 18px;
+    height: 18px;
+    animation: rocket 0.8s ease-in-out infinite;
+}
+
+.info-hero .video:hover img{
+    transform: scale(1.1);
+    transition: 1s all;
+}
+
+.info-hero .video:hover .icon2{
+    animation: playGo 1s ease-in-out;
+}
+
+.attr-table .list-hero li:hover span{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0%);
+    transition: 0.5s ease-in-out;
+    background-color: rgba(0,0,0, 0.8);
+}
+
+.attr-table .list-hero li:hover img{
+    transform: scale(1.2);
+}
+
+.list-topic li a:hover img, .hover{
+    transform: rotateY(360deg);
+    transition: 0.8s ease-in-out;
+}
+.list-topic li a:hover .hover{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.8s ease-in-out;
+}
+
+
+.skin-hero .list-skin a:hover img{
+    transition: 1s all;
+    transform: scale(1.1);
+}
+
+
+.info-3 .read-more a:hover h3{
+    color: rgb(243, 194, 88);
+    transition: 0.2s ease-in-out;
+}
+
