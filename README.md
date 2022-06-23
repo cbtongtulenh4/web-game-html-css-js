@@ -1,6 +1,6 @@
 # hero-evolved-web
 
-view demo: [https://cbtongtulenh4.github.io/hero-evolved-web/](https://cbtongtulenh4.github.io/web-game-html-css-js/)
+view demo: https://cbtongtulenh4.github.io/web-game-html-css-js/
 
 Page Home":
 
