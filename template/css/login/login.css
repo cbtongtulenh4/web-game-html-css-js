@@ -90,9 +90,14 @@
 	cursor: pointer;
 }
 
+
+.action-form{
+	display: flex;
+	justify-content: space-between;
+}
+
 .submit-btn {
 	display: block;
-	margin-left: auto;
 	border: none;
 	outline: none;
 	background: #ff652f;
@@ -104,7 +109,8 @@
 	cursor: pointer;
 }
 .register-acc {
-	color: inherit;
+	color: black;
+	text-decoration: none;
 }
   
 #register-acc {
